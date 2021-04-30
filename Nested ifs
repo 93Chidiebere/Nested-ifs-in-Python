@@ -1,0 +1,14 @@
+#Tic-Tac-Toe Board
+
+for i in range(5):
+  if i%2 == 0:
+    for j in range(3, 8):
+      if j%2 == 1:
+        if j != 7:
+          print(" ", end = "")
+        else:
+          print(" ")
+      else:
+        print("|", end = "")
+  else:
+    print("-----")
